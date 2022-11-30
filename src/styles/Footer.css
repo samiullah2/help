@@ -1,0 +1,100 @@
+.footer {
+    color: #fff;
+    background-color: #E86375;
+    padding-top: 1.5em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container hr {
+    width: 80%;
+    margin: 0 0 1rem 0;
+}
+
+.footer-col-title {
+    font-size: 1.4rem;
+    text-decoration: underline wavy #FECB8A;
+    margin-bottom: 0.7rem;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+.footer-row p {
+    font-size: 1rem;
+}
+
+.footer-list {
+    margin: 0.5rem;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-list a:hover {
+    text-decoration: underline wavy #97FFD7;
+    transition: all ease-in-out 0.3s;
+}
+
+.footer-list li {
+    padding: 0 0 0.2rem 0;
+}
+
+.footer-col {
+    margin: 0 5rem 0 5rem;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright a:hover {
+    text-decoration: underline wavy #97FFD7;
+    transition: all ease-in-out 0.3s;
+}
+
+@media only screen and (max-width: 1040px) {
+    .footer-col {
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .footer-col {
+        margin: 0 0.3rem 0 0.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        padding: 0 0 1rem 0;
+    }
+
+    .footer-container hr {
+        width: 100%;
+    }
+
+    .copyright {
+        margin: 0.5rem;
+    }
+}

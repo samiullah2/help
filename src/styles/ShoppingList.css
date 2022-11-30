@@ -1,0 +1,48 @@
+.IngredientList{
+    width: 50%;
+margin: auto;
+text-align: center;
+margin-top: 1rem;
+}
+.AutoComplete{
+    margin: auto;
+    background-color: white;
+    width: 20rem;
+    border: 1 solid red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.IngredientPage{
+    width: 40%;
+    margin: auto;
+}
+.SearchBar{
+
+    margin: auto;
+  
+}
+.IngredientCRUD{
+    padding-top: 1rem;
+
+}
+.IngredientContainer{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 20rem;
+    margin: auto;
+    
+}
+
+ .IngredientRead{
+    border:none;
+    border-bottom: 1px solid;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 0;
+ }
+ .EditAutoComplete{
+
+ }

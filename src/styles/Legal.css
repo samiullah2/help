@@ -1,0 +1,28 @@
+.legalContainer {
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Comic Neue', cursive;
+}
+
+.legalContainer p {
+    margin: 1rem 0 0.2rem 0;
+}
+
+.legalContainer a {
+    text-decoration: none;
+    color: #E86375;
+}
+
+.legalContainer a:hover {
+    text-decoration: none;
+    color: #FECB8A;
+}
+
+@media only screen and (max-width: 744px) {
+    .legalContainer {
+        padding: 2rem;
+    }
+}

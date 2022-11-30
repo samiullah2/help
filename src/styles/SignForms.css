@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+.contBodySignForms {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signFormCont {
+    background-color: #fdd6a3;
+    width: 70%;
+    height: 40em;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px #68D6AC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signFormContInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.signFormContInputs label {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+
+.signFormBtnLinkCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.signFormBtnLinkCont p {
+    margin-top: 0.8rem;
+}
+
+.linkBtnForms {
+    text-decoration: none;
+    color: #e86375;
+}
+
+.inputForm {
+    margin: 0;
+    width: 80%;
+}
+
+.drpDiet {
+    width: 80%;
+}
+
+.inputForm:focus {
+    outline-color: #e86375;
+}
+
+.formBttn {
+    width: 55%;
+    height: 3em;
+    font-size: 1.1rem;
+}
+
+.formBttn:hover {
+    background-color: #68D6AC;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.formInputError {
+    color: #ea4335;
+    font-weight: bold;
+    margin: -10px;
+}
+
+@media only screen and (min-width : 742px) {
+    .signFormCont {
+        width: 40em;
+    }
+
+    .inputForm {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width : 742px) {
+    .formInputError {
+        font-size: 0.8rem;
+    }
+}

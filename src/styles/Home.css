@@ -1,0 +1,110 @@
+.pageWrapper {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.headerHome {
+    background-image: url(../assets/header.webp);
+    padding: 4rem;
+}
+
+.headerHome h2 {
+    margin: 1rem;
+    text-decoration: wavy underline #68D6AC;
+    font-size: 32px;
+}
+
+#intro {
+    background-color: rgba(255, 255, 255, 0.778);
+    font-size: 18px;
+    font-weight: 5 00;
+    width: 40rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.firstRecipe {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem;
+    flex-direction: row;
+}
+
+.secondRecipe {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem;
+    background-color: #FECB8A;
+    flex-direction: row;
+}
+
+.firstRecipe img,
+.secondRecipe img {
+    width: 55%;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px 2px rgba(77, 77, 77, 0.20);
+    margin-top: 1rem;
+}
+
+.firstRecipe a,
+.secondRecipe a {
+    background-color: #E86375;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.firstRecipe a:hover,
+.secondRecipe a:hover {
+    background-color: #68D6AC;
+    transition: 0.2s ease-in-out;
+}
+
+.recipeInfo {
+    margin: 1rem 2rem 1rem 2rem;
+    width: 70%;
+}
+
+.recipeInfo h3 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+}
+
+.recipeInfo p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 650px) {
+    #intro {
+        width: fit-content;
+    }
+
+    .pageWrapper p,
+    .pageWrapper h3 {
+        font-size: 14px;
+    }
+
+    .firstRecipe img,
+    .secondRecipe img {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .firstRecipe {
+        flex-direction: column;
+    }
+
+    .secondRecipe {
+        flex-direction: column-reverse;
+    }
+
+    .firstRecipe img,
+    .secondRecipe img {
+        width: 65%;
+    }
+}
